@@ -3,8 +3,8 @@ terraform {
 }
 
 provider "wavefront" {
-  address = "try.wavefront.com"
-  token   = "f98ec612-d9a0-48a5-bdab-99417dd547d6"
+  address = "longboard.wavefront.com"
+  token   = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 }
 
 resource "wavefront_dashboard" "test_dashboard" {
